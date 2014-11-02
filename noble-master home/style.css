@@ -68,7 +68,7 @@ a:hover {
 .header-cart:after {
 	content: "";
 	position: absolute;
-	top: 1;
+	top: 1px;
 	right: 0;
 	width: 17px;
 	height: 12px;
@@ -91,7 +91,6 @@ a:hover {
 	display: block;
 	font-size: 9px;
 	text-transform: uppercase;
-
 }
 .header-static .link:after {
 	content: "";
@@ -120,15 +119,8 @@ a:hover {
 	width: 205px;
 	height: 54px;
 	float: left;
-	background: #4b545e;
-	background: -moz-linear-gradient(top, #393c42 0%, #4b545e 50%, #393c42 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #393c42), color-stop(50%, #4b545e), color-stop(100%, #393c42)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #393c42 0%, #4b545e 50%, #393c42 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #393c42 0%, #4b545e 50%, #393c42 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #393c42 0%, #4b545e 50%, #393c42 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #393c42 0%, #4b545e 50%, #393c42 100%); /* W3C */
-	/*margin-right: 26px;*/
-	}
+	background: url(images/fon-one.png) repeat-x;
+}
 .header-navigation .header {
 	color: #fff;
 	font: 16px/54px bold Tahoma, sans-serif;
@@ -150,19 +142,34 @@ a:hover {
 	height: 22px;
 	float: left;
 	padding: 16px 10px;
-	background: #879c65;
-	background: -moz-linear-gradient(top, #6e8745 0%, #879c65 50%, #6e8745 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6e8745), color-stop(50%, #879c65), color-stop(100%, #6e8745)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #6e8745 0%, #879c65 50%, #6e8745 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #6e8745 0%, #879c65 50%, #6e8745 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #6e8745 0%, #879c65 50%, #6e8745 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #6e8745 0%, #879c65 50%, #6e8745 100%); /* W3C */
+	background: url(images/fon-two.png) repeat-x;
+	margin-left: 26px;
+}
+.header-search:after {
+	content:"";
+	background-image: url(images/flashsecond.png);
+	position: relative;
+	float: right;
+	width: 26px;
+	height: 54px;
+	left: 23px;
+	top: -39px;
+}
+.header-search:before {
+	content:"";
+	background-image: url(images/flashfirst.png);
+	position: relative;
+	float: left;
+	width: 26px;
+	height: 54px;
+	left: -36px;
+	top: -16px;
 }
 .header-search .label {
 	color: #fff;
 	font: 16px/22px bold Tahoma, sans-serif;
 	text-transform: uppercase;
-	margin-right: 7px;
+	margin: 0 7px 0 -26px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -188,13 +195,7 @@ a:hover {
 	width: 200px;
 	height: 21px;
 	float: right;
-	background: #4F89B3;
-	background: -moz-linear-gradient(top, #236B98 0%, #4F89B3 50%, #236B98 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #236B98), color-stop(50%, #4F89B3), color-stop(100%, #236B98)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #236B98 0%, #4F89B3 50%, #236B98 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #236B98 0%, #4F89B3 50%, #236B98 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #236B98 0%, #4F89B3 50%, #236B98 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #236B98 0%, #4F89B3 50%, #236B98 100%); /* W3C */
+	background: url(images/fon-th.png) repeat-x;
 	margin-bottom: 5px;
 	color: #fff;
 	text-transform: uppercase;
@@ -206,42 +207,14 @@ a:hover {
 	width: 200px;
 	height: 20px;
 	float: right;
-	background: #4F89B3;
-	background: -moz-linear-gradient(top, #A63219 0%, #B53119 50%, #8E341A 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A63219), color-stop(50%, #B53119), color-stop(100%, #8E341A)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #A63219 0%, #B53119 50%, #8E341A 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #A63219 0%, #B53119 50%, #8E341A 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #A63219 0%, #B53119 50%, #8E341A 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #A63219 0%, #B53119 50%, #8E341A 100%); /* W3C */
+	background: url(images/fon-fo.png) repeat-x;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	font: bold 12px Tahoma, sans-serif;
-	padding-top: 4px;  /*obratit vnimanie*/
+	padding-top: 4px; 
 }
-/* pochemy ne rabotaet
-.header-buyers .link-corporate .link-goverment {
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	font: bold 12px Tahoma, sans-serif;
-}*/
-.header-search:before {
-	content: "";
-	background-image: url(images/flashfirst.png);
-	width: 26px;
-	height:54px;	
-}
-
-
-
-
-
-
-
-
-
-
+/*------1111111111111111-----------*/
 .main-content {
 	background-color: #fff;
 	padding: 0 15px;
@@ -275,7 +248,7 @@ a:hover {
 	color: #95916d;
 	font-weight: bold;
 	font-size: 10px;
-	margin: 22px 0 -3px;
+	margin: 25px 0 -3px;
 }
 .shop-by-category .list {
 	border: 1px solid #c4c7b5;
@@ -283,10 +256,15 @@ a:hover {
 }
 .shop-by-category .item {
 	display: inline-block;
-	padding: 33px 10px 0 39px;
+	padding: 33px 10px 6px 38px;
 	width: 256px;
 	vertical-align: top;
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.shop-by-category .item {
+		padding-top: 34px;
+	}
+}	
 .shop-by-category .image-link {
 	border: 2px solid #d6dedb;
 	display: inline-block;
@@ -322,7 +300,14 @@ a:hover {
 	color: #95916d;
 	font-weight: bold;
 	font-size: 10px;
-	margin: 22px 0 -3px;
+	margin: 25px 0 -3px;
+}
+.aside-headers {
+	text-transform: uppercase;
+	color: #95916d;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 15px 0 -3px;
 }
 .home-testimonials-content {
 	border: 1px solid #c4c7b5;
@@ -333,6 +318,7 @@ a:hover {
 	color: #4e5863;
 	font-size: 11px;
 	font-style: italic;
+	
 	margin-bottom: 18px;
 	line-height: 16px;
 }
@@ -375,4 +361,174 @@ a:hover {
 	font-size: 11px;
 	font-weight: normal;
 	text-decoration: line-through;
+}
+.brands-content {
+	border: 1px solid #c4c7b5;
+	background-color: #fff;
+}
+.brands-content .image-brands {
+	padding: 35px 0 35px 45px;
+}
+.brands-content .images-brands {
+	padding: 32px 0 34px 35px;
+}
+.top-content {
+	background-color: #8B9F6A;
+}
+.top-list {
+	list-style: none;
+	line-height: 25px;
+	padding: 11px 24px;
+}
+.top-links {
+	display: inline-block;
+	vertical-align: top;
+	width: 159px;
+}
+.cont-link {
+	color: #fff;
+}
+.futured-block{
+	padding-top: 16px;
+	clear: both;
+}
+.futured-main {
+	text-transform: uppercase;
+	color: #95916d;
+	font-weight: bold;
+	font-size: 10px;	
+}
+.futured-content {
+	border-top: 1px solid #c4c7b5;
+	border-bottom: 1px solid #c4c7b5;
+	margin: -3px -15px 0;
+	padding: 0 15px 37px;
+	list-style: none;
+	background: #fff;
+	background: -moz-linear-gradient(top, #e3e5d9 0%, #fff 15%, #fff 85%, #e3e5d9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3e5d9), color-stop(15%, #fff), color-stop(100%, #fff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e3e5d9 0%, #fff 15%, #fff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e3e5d9 0%, #fff 15%, #fff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e3e5d9 0%, #fff 15%, #fff 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e3e5d9 0%, #fff 15%, #fff 85%, #e3e5d9 100%); /* W3C */
+}
+.futured {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin: 0 -2px;
+	padding: 37px 15px 0 40px;
+	box-sizing: border-box;
+}
+.futured-image {
+	float: left;
+	border: 2px solid #d9e0dd;
+}
+.futured-text {
+	padding-left: 120px;
+}
+.futured-content .name {
+	color: #778e50;
+	font-weight: bold;
+	line-height: 16px;
+	font-size: 12px;
+}
+.futured-content .noble {
+	color: #4e5863;
+	font-weight: bold;
+}
+.futured-content .price {
+	font-size: 13px;
+	font-weight: bold;
+	color: #4d6c1b;
+	margin: 16px 20px 0 0;
+	float: left;	
+}
+.futured-content .info {
+	overflow: hidden;
+	padding-bottom: 8px;
+}
+.futured-content .old-price {
+	font-size: 11px;
+	color: #4e5863;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+.futured-content .review {
+	float: left;
+	margin-top: 16px;
+}
+.review .review-link {
+	color: #808789;
+	font-size: 10px;
+	font-style: italic;
+}
+.bottom-blocks {
+	padding: 12px 0 15px 0;
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.bottom-blocks .block {
+	width: 324px;
+	height: 79px;
+	background-color: #4d6c1b;
+	float: left;
+	margin-left: 11px;
+	color: #fff;
+	text-align: center;	
+}
+.bottom-blocks .block:first-child {
+	margin-left: 0;
+}
+.bottom-blocks .block:before {
+	content:"";
+	height: 79px;
+	width:1px;
+	vertical-align: middle;
+	display: inline-block;
+} 
+.bottom-blocks .text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 320px;
+}
+.pay-system {
+	border: 1px solid #c4c7b5;	
+	text-align: center;
+	padding: 10px 0;
+	
+}
+.pay-system .link {	
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 12px;
+}
+.main-footer {
+	background-color: #fff;
+	padding: 0 15px;
+	width: 994px;
+	margin: 0 auto;
+}
+.main-footer .footer-text {
+	display: inline-block;
+	vertical-align: top;
+}
+.main-footer .footer-link {
+	list-style-type: none;
+	font-size: 10px;
+	padding:0 77px 50px 0;
+}
+.main-footer .header-text {
+	font-weight: bold;
+	color: #4e5863;
+	padding: 17px 0 12px 0;
+	font-size: 11px;
+}
+.footer-link .footer-info {
+	color: #808789;
+}
+.footer-text .hot-line {
+	color: #4e5863;
 }
