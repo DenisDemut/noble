@@ -59,7 +59,7 @@ a:hover {
 	left: -2px;
 	width: 12px;
 	height: 20px;
-	background: url(images/ico.png) no-repeat -20px 0; 
+	background: url(../images/ico.png) no-repeat -20px 0; 
 }
 .header-cart {
 	padding-right: 21px;
@@ -72,7 +72,7 @@ a:hover {
 	right: 0;
 	width: 17px;
 	height: 12px;
-	background: url(images/ico.png) no-repeat 0 0;
+	background: url(../images/ico.png) no-repeat 0 0;
 }
 .header-static {
 	float: left;
@@ -94,7 +94,7 @@ a:hover {
 }
 .header-static .link:after {
 	content: "";
-	background: url(images/ico.png) no-repeat 0 -20px #fff;
+	background: url(../images/ico.png) no-repeat 0 -20px #fff;
 	width: 9px;
 	height: 21px;
 	position: absolute;
@@ -119,7 +119,7 @@ a:hover {
 	width: 205px;
 	height: 54px;
 	float: left;
-	background: url(images/fon-one.png) repeat-x;
+	background: url(../images/fon-one.png) repeat-x;
 }
 .header-navigation .header {
 	color: #fff;
@@ -142,12 +142,12 @@ a:hover {
 	height: 22px;
 	float: left;
 	padding: 16px 10px;
-	background: url(images/fon-two.png) repeat-x;
+	background: url(../images/fon-two.png) repeat-x;
 	margin-left: 26px;
 }
 .header-search:after {
 	content:"";
-	background-image: url(images/flashsecond.png);
+	background-image: url(../images/flashsecond.png);
 	position: relative;
 	float: right;
 	width: 26px;
@@ -157,7 +157,7 @@ a:hover {
 }
 .header-search:before {
 	content:"";
-	background-image: url(images/flashfirst.png);
+	background-image: url(../images/flashfirst.png);
 	position: relative;
 	float: left;
 	width: 26px;
@@ -177,7 +177,7 @@ a:hover {
 	width: 31px;
 	height: 22px;
 	margin-top: 1px;
-	background: url(images/ico.png) -40px 0 no-repeat;
+	background: url(../images/ico.png) -40px 0 no-repeat;
 	border: none;
 	text-indent: -3000px;
 	display: inline-block;
@@ -195,7 +195,7 @@ a:hover {
 	width: 200px;
 	height: 21px;
 	float: right;
-	background: url(images/fon-th.png) repeat-x;
+	background: url(../images/fon-th.png) repeat-x;
 	margin-bottom: 5px;
 	color: #fff;
 	text-transform: uppercase;
@@ -207,7 +207,7 @@ a:hover {
 	width: 200px;
 	height: 20px;
 	float: right;
-	background: url(images/fon-fo.png) repeat-x;
+	background: url(../images/fon-fo.png) repeat-x;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
@@ -369,7 +369,7 @@ a:hover {
 .brands-content .image-brands {
 	padding: 35px 0 35px 45px;
 }
-.brands-content .images-brands {
+.brands-content .../images-brands {
 	padding: 32px 0 34px 35px;
 }
 .top-content {
@@ -385,7 +385,7 @@ a:hover {
 	vertical-align: top;
 	width: 159px;
 }
-.cont-link {
+.top-content .cont-link {
 	color: #fff;
 }
 .futured-block{

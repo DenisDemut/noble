@@ -3,68 +3,245 @@
 	 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Noble-cart</title>
-		<link rel="stylesheet" type="text/css" href="reset.css" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="res/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="res/css/style.css" />
+		<!--[if lt IE 9]><script src="res/js/html5shiv.js"></script><![endif]-->
 	 </head>
 	 <body>		
-		<header class="main-header">
-			<div class="clearfix">
-				<a class="header-logo" href="#"><img src="images/noble.png" alt="logo-company"></a>
-				<ul class="header-links">
-					<li class="item"><a class="secondary-link" href="#">My Account</a></li>
-					<li class="item"><a class="secondary-link" href="#">Wish List</a></li>
-					<li class="item"><a href="#" class="link header-cart"><span class="count">3</span> items in cart</a></li>
-				</ul>
-			</div>
-			<div class="clearfix">
-				<ul class="header-static">
-					<li class="item"><a href="#" class="link">Specials</a></li>
-					<li class="item"><a href="#" class="link">How to</a></li>
-					<li class="item"><a href="#" class="link">Shipping</a></li>
-					<li class="item"><a href="#" class="link">Reviews</a></li>
-					<li class="item"><a href="#" class="link">About</a></li>
-					<li class="item"><a href="#" class="link">Resources</a></li>
-					<li class="item"><a href="#" class="link">Help</a></li>
-				</ul>			
-				<div class="header-contact">
-					<a href="#">Click here for live chat</a>
-					<span class="phone">1-877-999-1977</span>
+			<header class="main-header">
+				<div class="clearfix">
+					<a class="header-logo" href="#"><img src="res/images/noble.png" alt="logo-company"></a>
+					<ul class="header-links">
+						<li class="item"><a class="secondary-link" href="#">My Account</a></li>
+						<li class="item"><a class="secondary-link" href="#">Wish List</a></li>
+						<li class="item"><a href="#" class="link header-cart"><span class="count">3</span> items in cart</a></li>
+					</ul>
 				</div>
-			</div>
-			<div class="clearfix header-section">
-				<nav class="header-navigation">
-					<div class="header">
-						Shop products
+				<div class="clearfix">
+					<ul class="header-static">
+						<li class="item"><a href="#" class="link">Specials</a></li>
+						<li class="item"><a href="#" class="link">How to</a></li>
+						<li class="item"><a href="#" class="link">Shipping</a></li>
+						<li class="item"><a href="#" class="link">Reviews</a></li>
+						<li class="item"><a href="#" class="link">About</a></li>
+						<li class="item"><a href="#" class="link">Resources</a></li>
+						<li class="item"><a href="#" class="link">Help</a></li>
+					</ul>			
+					<div class="header-contact">
+						<a href="#">Click here for live chat</a>
+						<span class="phone">1-877-999-1977</span>
 					</div>
-				</nav>
-				<form action="" class="header-search">
-					<label for="search" class="label">Search</label>
-					<input type="text" placeholder="search" id="search" class="text">
-					<input type="submit" value="submit" class="submit">
-				</form>
-				<div class="header-buyers">
-					<a href="#" class="link-goverment">Goverment buyers</a>
-					<a href="#" class="link-corporate">Corporate/Mbo buyers</a>
 				</div>
-			</div>
-		</header>
+				<div class="clearfix header-section">
+					<nav class="header-navigation">
+						<div class="header">
+							Shop products
+						</div>
+					</nav>
+					<form action="" class="header-search">
+						<label for="search" class="label">Search</label>
+						<input type="text" placeholder="search" id="search" class="text">
+						<input type="submit" value="submit" class="submit">
+					</form>
+					<div class="header-buyers">
+						<a href="#" class="link-goverment">Goverment buyers</a>
+						<a href="#" class="link-corporate">Corporate/Mbo buyers</a>
+					</div>
+				</div>
+			</header>
 		<!-- end header-->
 		<!-- start content-->
-		<div class="main-content clearfix"></div>
+		<div class="main-content clearfix">
+			<div class="cart-info">
+				<ul class="cart-text">
+					<li class="cart-item"><a href="#" class="cart-link">Lorem ipsum dolor</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Sit amet lorem</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Ipsum dolor sit amet</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Lorem ipsum dolor</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Sit amet lorem</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Ipsum dolor sit amet</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Lorem ipsum dolor</a></li>
+					<li class="cart-item"><a href="#" class="cart-link">Sit amet lorem</a></li>
+				</ul>
+			</div>
+			<div class="cart-listmap">
+				<div class="cart-home">
+					<a href="#">Home</a> &gt <span class="shop-cart">Shopping Cart</span>
+				</div>	
+				<div class="clearfix cart-possibility">
+					<h1 class="cart-header">Shopping Cart</h1>
+					<div class="cart-element">
+						<a href="#"><img src="res/images/print.png" alt="print" class="cart-im">Print this page</a>
+						<a href="#"><img src="res/images/save.png" alt="save" class="cart-im">Save this cart</a>
+					</div>					
+				</div>
+						<h3 class="cart-include">You have 3 items in your cart.</h3>
+					<div class="clearfix cart-table">
+						<a href="#" class="cart-check"><img src="res/images/chekout.png" alt="chekout" class="check-image"></a>
+						<form>
+							<table class="head-table">
+								<thead class="thead-cart">
+									<tr class="head-line">
+										<th class="head-cell">Remove?</th>
+										<th class="head-cell">Items</th>
+										<th class="head-cell">Unit Price</th>
+										<th class="head-cell">Qty</th>
+										<th class="head-cell">Total Price</th>
+									</tr>
+								</thead>
+								<tfoot class="tfoot-cart">
+									<tr class="foot-line">
+										<td class="foot-text" colspan="2" rowspan="2">
+											<div class="tfoot-info">Do you have a <span class="promotion">promotion code</span>? Enter it here:</div>
+											<div>
+												<input type="text" class="foot-form">
+												<input type="buttom" name="imagebutton" class="tfoot-buttom">	
+											</div>
+										</td>
+										<td class="foot-qty" colspan="2">
+											<ul class="foot-data">
+												<li>Subtotal:</li>
+												<li>Discount:</li>
+												<li>Est. Shipping:</li>
+											</ul>	
+										</td>
+										<td class="foot-price">  
+											<ul class="foot-data">
+												<li>$447.00</li>
+												<li>-10.00</li>
+												<li>5.00</li>
+											</ul>	
+										</td>
+									</tr>
+									<tr class="foot-line">								
+										<td class="foot-end" colspan="2">Total:</td>
+										<td class="foot-total">$437.00</td>
+									</tr>
+								</tfoot>
+								<tbody class="tbody-cart">
+									<tr class="body-line">
+										<td class="body-cell">
+											<input type="checkbox" class="cart-checkbox">
+										</td>
+										<td class="body-items">
+											<a href="#" class="body-photo"><img src="res/images/body-cart.png" alt="picnic"></a>
+													<div class="body-info">
+														<a href="#" class="body-coleman">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+														<div class="body-noble">Noble #12345678</div>
+														<div class="body-description">Description of product Description of product ...</div>
+														<div class="body-shipping">In stock; Ships in 2-4 days</div>												
+													</div>												
+										</td>
+										<td class="body-price">
+											<div class="body-mainp">$149.00 </div>
+											<div class="body-unit">$150.00</div>
+										</td>
+										<td class="body-qty">
+											<input type="text" class="body-form" value="0">
+										</td>
+										<td class="body-tp">$298.00</td>
+									</tr>
+									<tr class="body-line">
+										<td class="body-cell">
+											<input type="checkbox" class="cart-checkbox">
+										</td>
+										<td class="body-items">
+											<a href="#" class="body-photo"><img src="res/images/body-cart.png" alt="picnic"></a>
+													<div class="body-info">
+														<a href="#" class="body-coleman">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+														<div class="body-noble">Noble #12345678</div>
+														<div class="body-description">Description of product Description of product ...</div>
+														<div class="body-shipping">In stock; Ships in 2-4 days</div>												
+													</div>												
+										</td>
+										<td class="body-price">
+											<div class="body-mainp">$149.00 </div>
+											<div class="body-unit">$150.00</div>
+										</td>
+										<td class="body-qty">
+											<input type="text" class="body-form" value="0">
+										</td>
+										<td class="body-tp">$298.00</td>
+									</tr>
+								</tbody>
+							</table>
+							<a href="#" class="cart-checks"><img src="res/images/chekout.png" alt="chekout" class="check-res/images"></a>
+							<a href="#" class="form-link"><img src="res/images/update-cart.png" alt="update-cart" class="form-image"></a>
+							<a href="#" class="form-link"><img src="res/images/continue-shopping.png" alt="continue-shopping" class="form-image"></a>
+							<a href="#" class="form-link"><img src="res/images/empty-cart.png" alt="empty-cart" class="form-image"></a>
+						</form>
+					</div>
+						<div class="interested-block">
+							<h3 class="interested-head">You may also be interested in:</h3>
+								<ul class="interested-content">
+									<li class="interested">
+										<a href="#" class="interested-link"><img src="res/images/interested-image.png" alt="interested-image"></a>
+										<div class="interested-text">
+											<a href="#" class="coleman-link">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+											<div class="noble-interested">Noble #12345678</div>
+											<div class="interested-review">
+												<img src="res/images/stars.png" alt="stars" class="interested-stars">
+												<a href="#" class="review-link">(5 reviews)</a>
+											</div>
+											<div class="price"><span class="old-price">$200.00</span> $180.00</div>
+											<a href="#" class="interested-bottom"><img src="res/images/addcart.png" alt="addcart"></a>
+										</div>
+									</li>
+									<li class="interested">
+										<a href="#" class="interested-link"><img src="res/images/interested-image.png" alt="interested-image"></a>
+										<div class="interested-text">
+											<a href="#" class="coleman-link">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+											<div class="noble-interested">Noble #12345678</div>
+											<div class="interested-review">
+												<img src="res/images/stars.png" alt="stars" class="interested-stars">
+												<a href="#" class="review-link">(5 reviews)</a>
+											</div>
+											<div class="price"><span class="old-price">$200.00</span> $180.00</div>
+											<a href="#" class="interested-bottom"><img src="res/images/addcart.png" alt="addcart"></a>
+										</div>
+									</li>
+									<li class="interested">
+										<a href="#" class="interested-link"><img src="res/images/interested-image.png" alt="interested-image"></a>
+										<div class="interested-text">
+											<a href="#" class="coleman-link">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+											<div class="noble-interested">Noble #12345678</div>
+											<div class="interested-review">
+												<img src="res/images/stars.png" alt="stars" class="interested-stars">
+												<a href="#" class="review-link">(5 reviews)</a>
+											</div>
+											<div class="price"><span class="old-price">$200.00</span> $180.00</div>
+											<a href="#" class="interested-bottom"><img src="res/images/addcart.png" alt="addcart"></a>
+										</div>
+									</li>
+									<li class="interested">
+										<a href="#" class="interested-link"><img src="res/images/interested-image.png" alt="interested-image"></a>
+										<div class="interested-text">
+											<a href="#" class="coleman-link">Coleman 9949-750 Road Trip Grill LXE (Red)</a>
+											<div class="noble-interested">Noble #12345678</div>
+											<div class="interested-review">
+												<img src="res/images/stars.png" alt="stars" class="interested-stars">
+												<a href="#" class="review-link">(5 reviews)</a>
+											</div>
+											<div class="price"><span class="old-price">$200.00</span> $180.00</div>
+											<a href="#" class="interested-bottom"><img src="res/images/addcart.png" alt="addcart"></a>
+										</div>
+									</li>
+								</ul>
+						</div>		
+			</div>	
+		</div>
 		<!-- end content-->
 		<!-- start footer-->
-		<br>
-		<br>
+		
 		<footer class="main-footer">
 			<div class="pay-system">
-				<a href="#" class="link"><img src="images/link.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link1.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link2.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link3.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link4.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link5.png" alt="PayPicture"></a>
-				<a href="#" class="link"><img src="images/link6.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link1.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link2.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link3.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link4.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link5.png" alt="PayPicture"></a>
+				<a href="#" class="link"><img src="res/images/link6.png" alt="PayPicture"></a>
 			</div>
 			<div class="footer-text">
 				<h4 class="header-text">Customer Service</h4>
@@ -113,7 +290,5 @@
 					</ul>
 			</div>			
 		</footer>
-		<br>
-		<br>
 	 </body>
  </html>
